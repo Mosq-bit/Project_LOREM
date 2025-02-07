@@ -7,7 +7,7 @@
 }
 
 .info__img {
-
+    width:min (589px, 100%);
     object-fit: contain;
 }
 
@@ -22,7 +22,7 @@
 .info__blocks {
     padding-top: 53px;
 
-    width: min(614px, 100%);
+    width: 614px;;
 }
 
 .info__block {
@@ -62,7 +62,7 @@
     color: var(--bg-active-black);
 }
 
-/* @media (max-width:1700px) {
+ @media (max-width:1800px) {
     .info {
         flex-direction: column;
     }
@@ -78,7 +78,7 @@
     .info__btn {
         margin: 20px 0 20px;
     }
-} */
+} 
 
 @media (max-width:730px) {
     .info__blocks {

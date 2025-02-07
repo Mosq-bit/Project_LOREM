@@ -7,7 +7,7 @@
 
 .form__block {
     display: flex;
-    padding-left:134px;
+    padding-left: 134px;
     background-color: var(--color-main);
 
     border-radius: 30px;
@@ -26,29 +26,34 @@
     color: #38535D;
 
 }
-.form{
+
+.form {
     display: flex;
     flex-direction: column;
     color: #55565A;
 
 }
-.form__group{
+
+.form__group {
     margin-bottom: 13px;
     padding: 14px 0 14px 38px;
     font-size: 24px;
     border: 1px solid #D6D6D6;
-    
+
 }
-.input{
+
+.input {
     width: 100%;
 
 }
-.form__check{
+
+.form__check {
     margin-top: 13px;
     font-size: 19px;
     border: none;
 
 }
+
 .form__btn {
     margin-top: 26px;
 
@@ -59,7 +64,7 @@
     padding: 32px 0;
 }
 
-.form__img{
+.form__img {
     position: absolute;
     object-fit: contain;
     right: 6%;
@@ -68,33 +73,86 @@
 }
 
 @media (max-width:1770px) {
-    .form__img{
+    .form__img {
 
         right: 0%;
-        
-    
+
+
     }
 }
 
-@media (max-width:1510px){
-    .form__img{
-        display: none;
-    }
-}
-
-@media (max-width:900px) {
-    .form__block-text{
+@media (max-width:1450px) {
+    .form__block-text {
+        padding: 73px 0 58px;
         width: min(320px, 100%);
+    }
+
+}
+
+@media (max-width: 1100px) {
+
+    .form__block {
+        padding-left: 90px;
+
+    }
+
+    .form__title {
+
+        font-size: 40px;
+    }
+
+    .form__img {
+        height: 624px;
+        right: 1%;
+        top: 6%;
+    }
+}
+
+
+@media (max-width:1000px) {
+    .form__block {
+        padding-left: 25px;
+
+    }
+    .form__block-text {
+        width: min(320px, 100%);
+    }
+
+    .form__block-text {
+        padding: 73px 0 40px;
+    }
+    .form__block {
+        padding-left: 50px;
+
+    }
+    .form__img {
+    
+        height: 575px;
+    
+        top: 7%;
     }
     .form__title {
 
         font-size: 30px;
 
     }
-    .placeholder{
+    .form__btn {
+       
+        font-size: 20px;
+    
+        padding: 32px 0;
+    }
+
+    .placeholder {
         font-size: 20px;
     }
 
+}
+@media (max-width:930px) {
+   
+    .form__img {
+        display: none;
+    }
 }
 
 @media (max-width:600px) {
@@ -103,22 +161,24 @@
     }
 }
 
-@media (max-width:400px){
+@media (max-width:400px) {
     .form__title {
         font-size: 25px;
     }
 
     .form__group {
-        
+
         font-size: 18px;
 
     }
+
     .form__btn {
-    
+
         font-size: 18px;
 
         padding: 18px 0;
     }
+
     .form__block-text {
 
         padding: 0 15px;
