@@ -62,7 +62,7 @@
     color: var(--bg-active-black);
 }
 
-@media (max-width:1700px) {
+/* @media (max-width:1700px) {
     .info {
         flex-direction: column;
     }
@@ -78,7 +78,7 @@
     .info__btn {
         margin: 20px 0 20px;
     }
-}
+} */
 
 @media (max-width:730px) {
     .info__blocks {
