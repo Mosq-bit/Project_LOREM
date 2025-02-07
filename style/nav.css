@@ -1,0 +1,29 @@
+.footer-nav {
+    background-color: var(--bg-header-grey);
+    padding: 40px 0;
+    border-top: 2px solid #D5C9BE;
+    border-bottom: 2px solid #D5C9BE;
+}
+.nav {
+    font-size: 20px;
+    text-transform: uppercase;
+    
+}
+.nav-list {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+.nav__link {
+    color: #FFFFFF;
+}
+
+@media (max-width:620px) {
+    .nav-list {
+        flex-wrap: wrap;
+    }
+    .nav {
+        font-size: 18px;
+
+    }
+}

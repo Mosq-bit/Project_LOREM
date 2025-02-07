@@ -1,0 +1,38 @@
+@import url(https://fonts.googleapis.com/css?family=Prata:regular);
+@import url(/fonts/ofont.ru_Arial.ttf);
+
+html{
+    /* плавный скрол */
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    /* font-family: 'Prata', sans-serif; */
+    
+    color: var(--color-main);
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 10px;
+    max-width: 1580px;
+
+}
+
+
+.divider {
+    margin: 40px 0 40px;
+    /* будет стараться быть 100% но не больше 420 */
+    /* max-width: 420px;
+    width: 100%; */
+    width: min(614px, 100%);
+
+    margin: 0 auto;
+    height: 1px;
+    background-color: #55565A;
+}
+
+.none{
+    display: none;
+}
