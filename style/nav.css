@@ -18,12 +18,20 @@
     color: #FFFFFF;
 }
 
+@media (max-width:740px) {
+    .nav-list {
+        gap: 20px;
+    }
+}
+
+
 @media (max-width:620px) {
     .nav-list {
         flex-wrap: wrap;
     }
     .nav {
-        font-size: 18px;
+        font-size: 14px;
 
     }
 }
+
