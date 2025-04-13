@@ -38,12 +38,17 @@
 .header__nav-link {
     color: inherit;
     font-size: 18px;
+    transition: .2s ease-in;
 }
+.header__nav-link:hover{
+    color: #ffa500;
+}
+
 
 
 @media (max-width:970px) {
     .header__row {
-        justify-content: space-between;
+        justify-content: space-around;
         
     }
 }
