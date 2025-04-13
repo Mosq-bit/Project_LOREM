@@ -94,6 +94,10 @@
     font-weight: 700;
     font-size: 18px;
     color: black;
+    transition: .2s ease-in;
+}
+.burger__nav-link:hover{
+    color: #ffa500;
 }
 
 
